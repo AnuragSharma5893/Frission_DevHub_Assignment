@@ -4,7 +4,7 @@ from main import scrape_google_maps
 
 st.set_page_config(page_title="Google Maps Scraper", layout="centered")
 
-st.title("📍 Google Maps Restaurant Scraper")
+st.title("📍 Google Maps Scraper")
 st.markdown("Scrape restaurant data (name, address, phone) from Google Maps.")
 
 query = st.text_input("Enter your search query (e.g., restaurants in Delhi):")
